@@ -1,0 +1,59 @@
+
+
+body, html {
+    height: 100%;
+    display: grid;
+    margin: 0;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    width: 70vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border-radius: 1%;
+    box-shadow: 5px 7px 10px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.box1 {
+    flex: 1 0 10%;
+    z-index: -1;
+    background-color: rgb(155, 226, 12);
+    height: 25%;
+}
+
+.box2 {
+    flex: 2 2 20%;
+    z-index: 2;
+    background-color: rgb(27, 225, 225);
+    height: 50%;
+}
+
+.box3 {
+    flex: 3 0 40%;
+    z-index: 3;
+    background-color: rgb(248, 216, 11);
+    height: 90%;
+}
+
+.box4 {
+    flex: 2 2 20%;
+    z-index: 2;
+    background-color: darkgreen;
+    height: 50%;
+}
+
+.box5 {
+    flex: 1 1 10%;
+    z-index: -1;
+    background-color: blueviolet;
+    height: 25%;
+}
