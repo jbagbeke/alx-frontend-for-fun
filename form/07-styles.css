@@ -830,7 +830,7 @@ textarea:valid:not(:placeholder-shown) {
   padding: 0;
 }
 
-.form-search .search-button .search-icon {
+.search-button .search-icon {
   fill: white;
   width: 1.5rem;
   height: 1.5rem;
